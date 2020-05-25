@@ -64,5 +64,30 @@ main {
 }
 
 .flex-flow-2 {
-  flex-flow: wrap row-reverse;
+  flex-flow: wrap row;
+}
+
+div[class*="justify-content"] {
+  height: 200px;
+}
+div[class*="justify-content"] .flexbox-item {
+  width: 50px;
+}
+.justify-content-flex-start {
+  justify-content: flex-start;
+}
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.justify-content-space-evenly {
+  justify-content: space-evenly;
 }

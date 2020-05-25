@@ -35,3 +35,11 @@ main {
 .flex-dir-column {
   flex-direction: column;
 }
+
+.flex-dir-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-dir-column-reverse {
+  flex-direction: column-reverse;
+}

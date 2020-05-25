@@ -43,3 +43,16 @@ main {
 .flex-dir-column-reverse {
   flex-direction: column-reverse;
 }
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap .flexbox-item,
+.flex-no-wrap .flexbox-item {
+  width: 200px;
+}

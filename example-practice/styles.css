@@ -10,3 +10,20 @@ h1, h2, h3, h4 {
   margin: 15px 0;
 }
 
+/* Example Page Layout */
+.example-page-layout {
+  padding: 20px;
+}
+.example-page-layout .wrapper {
+  display: flex;
+}
+.example-page-layout .sidebar {
+  flex: 1 1 30%;
+  padding: 10px;
+  background-color: green;
+}
+.example-page-layout .content {
+  padding: 10px;
+  flex: 1 1 70%;
+}
+

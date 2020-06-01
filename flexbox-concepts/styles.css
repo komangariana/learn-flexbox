@@ -109,3 +109,16 @@ div[class*="align-items"] .flexbox-item {
 div[class*="align-items-strech"] .flexbox-item {
   height: auto;
 }
+
+.align-self-combination-1 .flexbox-item:nth-child(1){
+  align-self: flex-start;
+}
+.align-self-combination-1 .flexbox-item:nth-child(2){
+  align-self: center;
+}
+.align-self-combination-1 .flexbox-item:nth-child(3){
+  align-self: flex-end;
+}
+.align-self-combination-1 .flexbox-item:nth-child(4){
+  align-self: stretch;
+}

@@ -44,7 +44,7 @@ h1, h2, h3, h4 {
   padding: 0;
 }
 .example-gallery-simple-layout .wrapper li {
-  flex: 1 1 180px;
+  flex: 1 1 250px;
   box-sizing: border-box;
   padding: 1em;
   font-size: 12px;

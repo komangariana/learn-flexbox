@@ -157,3 +157,10 @@ div[class*="align-items-strech"] .flexbox-item {
 .flex-basis-combination-1.justify-content-space-between .flexbox-item:nth-child(1) {
   flex-basis: 200px;
 }
+
+.flex-order-combination-1.justify-content-space-between .flexbox-item {
+  order: 0;
+}
+.flex-order-combination-1.justify-content-space-between .flexbox-item:nth-child(3) {
+  order: -1;
+}

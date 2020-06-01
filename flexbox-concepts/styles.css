@@ -122,3 +122,17 @@ div[class*="align-items-strech"] .flexbox-item {
 .align-self-combination-1 .flexbox-item:nth-child(4){
   align-self: stretch;
 }
+
+.flex-grow-combination-1.justify-content-space-between .flexbox-item {
+  width: auto;
+  flex-grow: 1;
+}
+.flex-grow-combination-1 .flexbox-item:nth-child(2){
+  flex-grow: 2;
+}
+.flex-grow-combination-1 .flexbox-item:nth-child(3){
+  flex-grow: 3;
+}
+.flex-grow-combination-1 .flexbox-item:nth-child(4){
+  flex-grow: 4;
+}

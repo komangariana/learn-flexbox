@@ -149,3 +149,11 @@ div[class*="align-items-strech"] .flexbox-item {
 .flex-shrink-combination-1 .flexbox-item:nth-child(3){
   flex-shrink: 3;
 }
+
+.flex-basis-combination-1.justify-content-space-between {
+  flex-flow: row nowrap;
+  width: 400px;
+}
+.flex-basis-combination-1.justify-content-space-between .flexbox-item:nth-child(1) {
+  flex-basis: 200px;
+}

@@ -27,3 +27,26 @@ h1, h2, h3, h4 {
   flex: 1 1 70%;
 }
 
+
+.example-gallery-simple-layout {
+  padding: 20px;
+}
+.example-gallery-simple-layout img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.example-gallery-simple-layout .wrapper {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 0;
+}
+.example-gallery-simple-layout .wrapper li {
+  flex: 1 1 180px;
+  box-sizing: border-box;
+  padding: 1em;
+  font-size: 12px;
+  font-style: italic;
+}
